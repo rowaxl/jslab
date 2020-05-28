@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JS Lab</title>
-</head>
-<body>
-  <h3>Member: Koro, Li Min, Mahsha, Wonjae</h3>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script src="js.js"></script>
+    <title>JS Lab</title>
+    <style>
+        .pwd {
+            margin-top: 20px;
+            margin-left: 40px;
+            border: 1px solid #dcdcdc;
+            width: 348px;
+            height: 40px;
+            line-height: 40px;
+        }
+        
+        .pwd input {
+            color: #dcdcdc;
+            width: 289px;
+            border: 0;
+            line-height: 40px;
+            float: left;
+        }
+        
+        #pwdtext {
+            outline: none;
+            color: #000000;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Member: Koro, Li Min, Mahsha, Wonjae</h3>
+    <div id='result'>log in</div>
+    <div>
+        account: <input id='account' type='text' />
+    </div>
+    <div>
+        password: <input id='password' type='text' />
+    </div>
+    <div>
+        <button id='login'>log in</button>
+    </div>
+    < <script src="js.js"></script>
+
 </body>
+
 </html>
