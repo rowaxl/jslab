@@ -4,10 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JS Lab</title>
+  <style>
+    p, p > *, button {
+      font-size: 1.2em;
+    }
+  </style>
 </head>
 <body>
   <h3>Member: Koro, Li Min, Mahsha, Wonjae</h3>
 
+  <div id="form" style="display: block;">
+    <p>
+      User Name:
+      <input id="user-name" type="text" />
+    </p>
+    <p>
+      Password:
+      <input id="password" type="password" />
+    </p>
+  
+    <button onclick="validate()">Sign In</button>
+  </div>
+  <div id="result" style="display: none;">
+    <a href="https://www.google.ca">Welcome!</a>
+  </div>
   <script src="js.js"></script>
 </body>
 </html>
