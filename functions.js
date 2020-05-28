@@ -1,5 +1,7 @@
 let correctPass = "tokyo2020";
-let googleURL = "http://www.google.ca"
+let googleURL = "http://www.google.ca";
+let alertMessage = "This is a wrong password !!";
+let empty = "";
 
 function checkPass() {
     pass = document.getElementById("pass_box").value;
@@ -12,6 +14,6 @@ function openGooglePage() {
 }
 
 function displayAlert() {
-    alert("This is a wrong password !!");
-    document.getElementById("pass_box").value = "";
+    alert(alertMessage);
+    document.getElementById("pass_box").value = empty;
 }
