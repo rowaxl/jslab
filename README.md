@@ -1,3 +1,3 @@
 # JS Lab
-## Member: Koro, Li min, Marsha, Wonjae
+## Member: Koro, Li min, Mahsha, Wonjae
 
